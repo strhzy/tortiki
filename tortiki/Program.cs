@@ -366,10 +366,6 @@ namespace tortiki
             File.AppendAllText(path, "\nЗаказ: " + zakaz[0] + zakaz[1] + zakaz[2] + zakaz[3] + zakaz[4] + zakaz[5]);
             File.AppendAllText(path, "\nСумма " + sum);
         }
-        static void Sbros()
-        {
-            sum = 0; zakaz[0]
-        }
         static void Menu()
         {
             Console.WriteLine("Заказ тортов в Королевстве тортов, торты на выбор");
